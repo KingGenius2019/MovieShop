@@ -11,7 +11,7 @@ export class GenresServiceService {
 
   constructor(private http: HttpClient) { }
 
-  private apiURL = environment.apiURL + '/genre'
+  private apiURL = environment.apiURL + '/genres'
 
   getAll(): Observable<genreDTO[]>{
     return this.http.get<genreDTO[]>(this.apiURL);

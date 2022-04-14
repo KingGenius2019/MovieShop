@@ -5948,11 +5948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\USER\\Project\\MovieStore\\MovieAPI\\MovieAPI.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\tutorial\\MovieStore\\MovieAPI\\MovieAPI.csproj",
       "projectName": "MovieAPI",
-      "projectPath": "c:\\Users\\USER\\Project\\MovieStore\\MovieAPI\\MovieAPI.csproj",
+      "projectPath": "C:\\Users\\USER\\tutorial\\MovieStore\\MovieAPI\\MovieAPI.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\USER\\Project\\MovieStore\\MovieAPI\\obj\\",
+      "outputPath": "C:\\Users\\USER\\tutorial\\MovieStore\\MovieAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"

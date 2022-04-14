@@ -18,10 +18,10 @@ export class CreateGenreComponent implements OnInit {
   saveChanges(genreCreationDTO: genreCreationDTO){
     // ... save the genre
     console.log(genreCreationDTO)
-    this.genresService.create(genreCreationDTO).subscribe(() => {
+    this.genresService.create(genreCreationDTO).subscribe (() => {
       this.router.navigate(['/genres']);
-    }
-    // , error => this.errors = parseWebAPIErrors(error)
+    }, error =>  console.error(error)
+    
     );
 
   }

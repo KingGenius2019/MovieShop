@@ -12,7 +12,7 @@ namespace MovieAPI.Data
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
-        DbSet<Genre> Genres {get; set;}
-        DbSet<Actor> Actors {get; set;}
+       public DbSet<Genre> Genres {get; set;}
+       public DbSet<Actor> Actors {get; set;}
     }
 }

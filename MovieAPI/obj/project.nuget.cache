@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pn38spjKrtUez1i8WdO3qjLuOFkrcj5qmeQV97W6AVheqZu4M9OuhYPquter3ZlflUIPTxcska2MljwBrO0n8w==",
+  "dgSpecHash": "5fs/6KKor/lHpaMLGy3K5DvK8h2iovP4w7ElaowRFikUvv4AmhXHlxTn2E04ENaI5/quhkrBh20uLDJTNGb+cA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Project\\MovieStore\\MovieAPI\\MovieAPI.csproj",
+  "projectFilePath": "C:\\Users\\USER\\tutorial\\MovieStore\\MovieAPI\\MovieAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
