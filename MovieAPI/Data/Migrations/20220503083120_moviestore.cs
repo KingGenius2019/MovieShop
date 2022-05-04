@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MovieAPI.Data.Migrations
 {
-    public partial class movieshop : Migration
+    public partial class moviestore : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,12 +11,12 @@ namespace MovieAPI.Data.Migrations
                 name: "Actors",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(120)", maxLength: 120, nullable: false),
-                    DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Biography = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 120, nullable: false),
+                    DateOfBirth = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Biography = table.Column<string>(type: "TEXT", nullable: true),
+                    Picture = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -27,9 +27,9 @@ namespace MovieAPI.Data.Migrations
                 name: "Genres",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {

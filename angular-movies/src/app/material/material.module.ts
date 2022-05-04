@@ -14,7 +14,7 @@ import {MatTableModule} from '@angular/material/table'
 import {DragDropModule} from '@angular/cdk/drag-drop'
 import {MatSelectModule} from '@angular/material/select'
 import {MatCheckboxModule} from '@angular/material/checkbox'
-import { LeafletModule } from '@asymmetrik/ngx-leaflet'
+
 import { MarkdownModule } from 'ngx-markdown';
 
 

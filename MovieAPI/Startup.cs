@@ -29,7 +29,8 @@ namespace MovieAPI
         public void ConfigureServices(IServiceCollection services)
         {
              services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("AppConnection")
+            // options.UseSqlServer(Configuration.GetConnectionString("AppConnection")
+                   options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")
             // sqlOptions => sqlOptions.UseNetTopologySuite()
             ));
 
@@ -44,7 +45,7 @@ namespace MovieAPI
                     // .WithExposedHeaders(new string[] { "totalAmountOfRecords" });
                 });
             });
-
+            // "AppConnection" : "Data Source=.;Initial Catalog=MoviesAPI;Integrated Security=True"
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
